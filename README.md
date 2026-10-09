@@ -40,6 +40,23 @@ BW16 firmware link for flipper mode: https://github.com/gorebrau/delfyRTL
 - add tetris game in other menu
 - baoduscuvaomomnhi
 
+### ❤️ BIG THANKS & CREDITS
+
+A huge shout-out to everyone who contributes to the cybersecurity, ethical hacking, and hacktivist communities. Your knowledge, creativity, research, and dedication continue to inspire developers around the world.
+
+### ⚡ Special Thanks To
+
+- CLTX4 — For the vision, development, and dedication behind this project.
+- Anonymous — For the well-known hacktivist identity associated with online activism.
+- LulzSec — For its historical place in hacktivism and cybersecurity discussions.
+- Kevin Mitnick — For his influence on security awareness and social engineering discussions.
+- Gary McKinnon — For his notoriety in the history of computer intrusion cases.
+
+### 🛡️ Respect to the Community
+
+Special thanks to ethical hackers, security researchers, open-source developers, bug bounty hunters, and everyone who shares knowledge to help make technology safer.
+- Clint? 
+
 ### ⚠️ Disclaimer and Legal Warning
 This firmware, software, and all associated tools (including but not limited to *Wi-Fi Deauthentication, RF Signal Cloning/Replay, and Signal Jamming* capabilities) are provided strictly for *educational purposes, ethical hacking, and authorized security auditing only*.
 
