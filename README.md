@@ -1,7 +1,7 @@
 # 🚀 DUSCU FLASHER
 A website to flash *Bruce* firmware directly via browser using Web Serial API technology. No Python installation, no complex command line needed.
 
-🔗 *Access now:* https://thang96memeff.github.io/firmware-bruce/
+🔗 *Access now:* https://ClintXproduction.github.io/web-flasherbruce/
 
 ---
 ### 🌟 Main Features
@@ -31,11 +31,12 @@ This tool supports boards based on ESP32 chips (commonly used for ESP32-S2, etc.
 - *Bruce* firmware is developed by the community. Please refer to the original repository of Bruce for more details about firmware features.
 - The web flasher tool is based on https://web.esphome.io/.
 
-Visit my Profile at: https://github.com/thang96memeff
+Visit my Profile at: https://github.com/ClintXproduction
 
 BW16 firmware link for flipper mode: https://github.com/gorebrau/delfyRTL
 
 - support vietnamese and filipino
+- Filipino ( BIKOLANO )
 - add tetris game in other menu
 - baoduscuvaomomnhi
 
