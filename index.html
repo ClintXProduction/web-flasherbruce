@@ -504,8 +504,8 @@
                   </p>
                   <p className={`text-xs mt-1 ${githubFirmwareStatus === 'available' ? 'text-emerald-400' : githubFirmwareStatus === 'missing' ? 'text-rose-400' : githubFirmwareStatus === 'checking' ? 'text-amber-300' : 'text-slate-500'}`}>
                     {githubFirmwareStatus === 'checking' ? 'GITHUB: Checking firmware file…' :
-                     githubFirmwareStatus === 'available' ? 'GITHUB: Firmware file found ✓' :
-                     githubFirmwareStatus === 'missing' ? 'GITHUB: Firmware file NOT FOUND ✕' :
+                     githubFirmwareStatus === 'available' ? 'GITHUB: Firmware file found ✅' :
+                     githubFirmwareStatus === 'missing' ? 'GITHUB: Firmware file NOT FOUND ❌' :
                      githubFirmwareStatus === 'error' ? 'GITHUB: Could not verify (network/CORS error)' :
                      'GITHUB: No firmware URL configured'}
                   </p>
