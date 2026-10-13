@@ -183,7 +183,7 @@
       const [baudRate, setBaudRate] = useState(921600);
       // User-editable flasher options (kept in this single index.html)
       const [firmwareFamily, setFirmwareFamily] = useState('All Firmware');
-      const firmwareFamilies = ['All Firmware', 'Bruce Predatory', 'Launcher', 'Marauder', 'Ghost ESP', 'ESP8266 Deauther', 'Bw16-Coming-Soon', 'Other / Custom'];
+      const firmwareFamilies = ['All Firmware', 'Bruce Predatory', 'Launcher', 'Marauder', 'Ghost ESP', 'ESP8266 Deauther', 'Bw16-Coming-Soon', 'PorkChop2.8', 'Other / Custom'];
       const [deviceFilter, setDeviceFilter] = useState('All');
       const [boardSearch, setBoardSearch] = useState('');
       const [showAdvancedOptions, setShowAdvancedOptions] = useState(false);
@@ -509,7 +509,7 @@
                   <button key={family} type="button" onClick={() => { setFirmwareFamily(family); setBoardSearch(''); const first = boards.find(b => family === 'All Firmware' || (b.family || 'Bruce Predatory') === family); if (first) setSelectedBoardId(first.id); }}
                     className={`rounded-xl border px-3 py-3 text-xs sm:text-sm font-bold text-left transition-all ${firmwareFamily === family ? 'bg-pink-500/20 border-pink-400 text-pink-200 shadow-[0_0_14px_rgba(236,72,153,0.12)]' : 'bg-slate-950 border-slate-700 text-slate-400 hover:border-pink-400/60 hover:text-white'}`}>
                     <span className="block">{family}</span>
-                    <span className="block text-[10px] font-normal opacity-70 mt-1">{family === 'All Firmware' ? 'Browse every entry' : family === 'Bruce Predatory' ? 'Bruce firmware builds' : family === 'Launcher' ? 'Multi-app launcher' : family === 'Marauder' ? 'ESP32 Marauder builds' : family === 'Ghost ESP' ? 'Ghost ESP builds' : family === 'ESP8266 Deauther' ? 'ESP8266 builds' : 'Custom .bin file'}</span>
+                    <span className="block text-[10px] font-normal opacity-70 mt-1">{family === 'All Firmware' ? 'Browse every entry' : family === 'Bruce Predatory' ? 'Bruce firmware builds 2.4ghz + 5ghz' : family === 'Launcher' ? 'Multi-app launcher By Bmorcelli' : family === 'Marauder' ? 'ESP32 Marauder Mod By Cltx4' : family === 'Ghost ESP' ? 'Ghost ESP ( nerdminer )' : family === 'ESP8266 Deauther' ? 'ESP8266 / Wemos' : 'Custom .bin file'}</span>
                   </button>
                 ))}
               </div>
