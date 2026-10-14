@@ -2,6 +2,7 @@
 A website to flash *Bruce* firmware directly via browser using Web Serial API technology. No Python installation, no complex command line needed.
 
 🔗 *Access now:* https://ClintXproduction.github.io/web-flasherbruce/
+🔗 *Access V2:* https://ClintXproduction.github.io/Web-test/
 
 
 ---
