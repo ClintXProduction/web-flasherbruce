@@ -84,8 +84,9 @@ This tool supports boards based on ESP32 chips (commonly used for ESP32-S2, etc.
 ### 🤝 Contribution & Copyright
 - *Bruce* firmware is developed by the community. Please refer to the original repository of Bruce for more details about firmware features.
 - The web flasher tool is based on https://web.esphome.io/.
-- Thanks To Thang 96 For the Origin :> 
-Visit my Profile at: https://github.com/ClintXproduction
+- Thanks To Thang 96 For the Origin :>
+  
+- Visit my Profile at: https://github.com/ClintXproduction
 
 BW16 firmware link for flipper mode: https://github.com/gorebrau/delfyRTL
 
