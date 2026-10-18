@@ -1,5 +1,10 @@
 # 🚀 CLTX4 FLASHER
 A website to flash *Bruce* firmware directly via browser using Web Serial API technology. No Python installation, no complex command line needed.
+<p align="center">
+  <img src="assets/CLTX4_Animated_Cyberpunk.svg"
+       alt="CLTX4 Animated Cybersecurity Dashboard"
+       width="100%">
+</p>
 
 🔗 *Access now:* https://ClintXproduction.github.io/web-flasherbruce/
 
