@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">CLTX4 TikTok Followers Analytics</title>
+  <desc id="desc">Neon red and black dashboard with 2,600 plus current TikTok followers and an illustrative rising line graph.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#08090d"/><stop offset="0.55" stop-color="#12060b"/><stop offset="1" stop-color="#030407"/>
+    </linearGradient>
+    <linearGradient id="area" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff1744" stop-opacity=".42"/><stop offset="1" stop-color="#ff1744" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="red" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff1744"/><stop offset="1" stop-color="#ff526f"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="microgrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#ff234d" stroke-opacity=".055" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="680" rx="22" fill="url(#bg)"/>
+  <rect width="1200" height="680" rx="22" fill="url(#microgrid)"/>
+  <path d="M22 72H1178 M22 76H460 M740 76H1178" stroke="#ff1744" stroke-width="2" opacity=".8"/>
+  <path d="M22 22H180L200 10H1000L1020 22H1178" fill="none" stroke="#ff1744" stroke-width="2" opacity=".65"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="42" y="48" fill="#fbfbfd" font-size="18" font-weight="700" letter-spacing="4">CLTX4  /  CREATOR ANALYTICS</text>
+    <text x="42" y="130" fill="#ffffff" font-size="49" font-weight="900">TIKTOK <tspan fill="#ff1744">FOLLOWERS</tspan></text>
+    <text x="44" y="161" fill="#aeb8c8" font-size="17" letter-spacing="2">GROWING TOGETHER • BUILDING THE COMMUNITY</text>
+    <text x="1154" y="47" fill="#ff4968" font-size="13" font-weight="700" text-anchor="end" letter-spacing="2">LIVE COMMUNITY SNAPSHOT</text>
+  </g>
+  <!-- Main chart panel -->
+  <rect x="32" y="190" width="790" height="365" rx="18" fill="#08090d" fill-opacity=".82" stroke="#5a1727" stroke-width="1.5"/>
+  <path d="M32 232H822" stroke="#ff1744" stroke-width="1.5" opacity=".7"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="54" y="219" fill="#ffffff" font-size="19" font-weight="700">FOLLOWER GROWTH</text>
+    <text x="800" y="219" fill="#ff526f" font-size="12" font-weight="700" text-anchor="end" letter-spacing="1.5">TREND VIEW • ILLUSTRATIVE</text>
+  </g>
+  <!-- Grid -->
+  <g stroke="#5d6470" stroke-opacity=".28" stroke-width="1">
+    <path d="M95 275H790 M95 325H790 M95 375H790 M95 425H790 M95 475H790 M95 525H790"/>
+    <path d="M95 255V525 M210 255V525 M325 255V525 M440 255V525 M555 255V525 M670 255V525 M790 255V525"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#8994a5" font-size="12">
+    <text x="83" y="279" text-anchor="end">2.6K</text><text x="83" y="329" text-anchor="end">2.3K</text>
+    <text x="83" y="379" text-anchor="end">2.0K</text><text x="83" y="429" text-anchor="end">1.7K</text>
+    <text x="83" y="479" text-anchor="end">1.4K</text><text x="83" y="529" text-anchor="end">1.1K</text>
+    <text x="95" y="544">START</text><text x="440" y="544" text-anchor="middle">GROWTH OVER TIME</text><text x="790" y="544" text-anchor="end">NOW</text>
+  </g>
+  <!-- Illustrative rising line -->
+  <path d="M95 505 L153 492 L211 483 L269 462 L327 451 L385 427 L443 408 L501 395 L559 367 L617 347 L675 321 L733 294 L790 263 L790 525 L95 525 Z" fill="url(#area)"/>
+  <path d="M95 505 L153 492 L211 483 L269 462 L327 451 L385 427 L443 408 L501 395 L559 367 L617 347 L675 321 L733 294 L790 263" fill="none" stroke="#ff1744" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+  <g fill="#0a0a0d" stroke="#ff6b83" stroke-width="3">
+    <circle cx="95" cy="505" r="5"/><circle cx="153" cy="492" r="5"/><circle cx="211" cy="483" r="5"/>
+    <circle cx="269" cy="462" r="5"/><circle cx="327" cy="451" r="5"/><circle cx="385" cy="427" r="5"/>
+    <circle cx="443" cy="408" r="5"/><circle cx="501" cy="395" r="5"/><circle cx="559" cy="367" r="5"/>
+    <circle cx="617" cy="347" r="5"/><circle cx="675" cy="321" r="5"/><circle cx="733" cy="294" r="5"/>
+    <circle cx="790" cy="263" r="7" fill="#ff1744" filter="url(#glow)"/>
+  </g>
+  <rect x="692" y="236" width="105" height="43" rx="9" fill="#210711" stroke="#ff1744"/>
+  <text x="744" y="254" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" fill="#ffb4c1" font-size="10">CURRENT</text>
+  <text x="744" y="271" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" fill="#ffffff" font-size="16" font-weight="800">2,600+</text>
+  <!-- Right side follower card -->
+  <rect x="844" y="190" width="324" height="365" rx="18" fill="#08090d" fill-opacity=".9" stroke="#702034" stroke-width="1.5"/>
+  <path d="M844 232H1168" stroke="#ff1744" stroke-width="1.5" opacity=".7"/>
+  <text x="868" y="219" font-family="Arial, Helvetica, sans-serif" fill="#ffffff" font-size="18" font-weight="700">CURRENT FOLLOWERS</text>
+  <circle cx="1006" cy="356" r="91" fill="none" stroke="#3a2028" stroke-width="17"/>
+  <circle cx="1006" cy="356" r="91" fill="none" stroke="url(#red)" stroke-width="17" stroke-linecap="round" stroke-dasharray="455 572" transform="rotate(-90 1006 356)" filter="url(#glow)"/>
+  <circle cx="1006" cy="356" r="70" fill="#0c080c" stroke="#4d1726" stroke-width="1"/>
+  <text x="1006" y="343" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" fill="#aeb8c8" font-size="13" letter-spacing="1">TIKTOK</text>
+  <text x="1006" y="380" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" fill="#ffffff" font-size="34" font-weight="900">2.6K+</text>
+  <text x="1006" y="405" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" fill="#ff526f" font-size="13" font-weight="700">FOLLOWERS</text>
+  <path d="M870 461H1142" stroke="#38202a"/>
+  <text x="870" y="487" font-family="Arial, Helvetica, sans-serif" fill="#8994a5" font-size="12" letter-spacing="1">THE GOAL</text>
+  <text x="870" y="514" font-family="Arial, Helvetica, sans-serif" fill="#ffffff" font-size="22" font-weight="800">NEXT STOP: 3,000</text>
+  <text x="870" y="535" font-family="Arial, Helvetica, sans-serif" fill="#ff526f" font-size="12">Every follow means a lot ❤️</text>
+  <!-- Bottom stats -->
+  <g>
+    <rect x="32" y="575" width="352" height="76" rx="14" fill="#0a090d" stroke="#5a1727"/>
+    <rect x="400" y="575" width="352" height="76" rx="14" fill="#0a090d" stroke="#5a1727"/>
+    <rect x="768" y="575" width="400" height="76" rx="14" fill="#0a090d" stroke="#5a1727"/>
+    <text x="54" y="601" font-family="Arial, Helvetica, sans-serif" fill="#ff526f" font-size="12" font-weight="700" letter-spacing="1.5">COMMUNITY</text>
+    <text x="54" y="632" font-family="Arial, Helvetica, sans-serif" fill="#ffffff" font-size="23" font-weight="900">2,600+ <tspan fill="#9ba5b5" font-size="14" font-weight="400">followers strong</tspan></text>
+    <text x="422" y="601" font-family="Arial, Helvetica, sans-serif" fill="#ff526f" font-size="12" font-weight="700" letter-spacing="1.5">CREATOR JOURNEY</text>
+    <text x="422" y="632" font-family="Arial, Helvetica, sans-serif" fill="#ffffff" font-size="21" font-weight="900">CREATE <tspan fill="#ff1744">//</tspan> SHARE <tspan fill="#ff1744">//</tspan> INSPIRE</text>
+    <text x="790" y="601" font-family="Arial, Helvetica, sans-serif" fill="#ff526f" font-size="12" font-weight="700" letter-spacing="1.5">THANK YOU FOR THE SUPPORT</text>
+    <text x="790" y="632" font-family="Arial, Helvetica, sans-serif" fill="#ffffff" font-size="19" font-weight="800">LET'S GROW TOGETHER ❤️</text>
+  </g>
+  <text x="1168" y="670" text-anchor="end" font-family="Arial, Helvetica, sans-serif" fill="#697384" font-size="10" letter-spacing="1.5">CLTX4 PRODUCTION • SVG README GRAPHIC</text>
+</svg>
