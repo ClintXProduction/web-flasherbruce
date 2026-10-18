@@ -121,7 +121,7 @@ Thank you to everyone who has contributed to Sherlock! ❤️
 
 </div>
 <p align="center">
-  <img src="assets/cltx4-animated.svg"
+  <img src="assets/CLTX4_Animated_Cyberpunk.svg"
        alt="CLTX4 Animated Cybersecurity Dashboard"
        width="100%">
 </p>
