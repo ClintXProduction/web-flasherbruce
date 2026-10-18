@@ -101,6 +101,20 @@ A huge shout-out to everyone who contributes to the cybersecurity, ethical hacki
 
 ### ⚡ Special Thanks To
 
+## Credits
+
+Thank you to everyone who has contributed to Sherlock! ❤️
+
+<a href="https://github.com/sherlock-project/sherlock/graphs/contributors">
+  <img src="https://contrib.rocks/image?&columns=25&max=10000&&repo=sherlock-project/sherlock" noZoom />
+</a>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=sherlock-project/sherlock&type=Date&theme=dark" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=sherlock-project/sherlock&type=Date" />
+  <img alt="Sherlock Project Star History Chart" src="https://api.star-history.com/svg?repos=sherlock-project/sherlock&type=Date" />
+</picture>
+
 - CLTX4 — For the vision, development, and dedication behind this project.
 - Anonymous — For the well-known hacktivist identity associated with online activism.
 - LulzSec — For its historical place in hacktivism and cybersecurity discussions.
