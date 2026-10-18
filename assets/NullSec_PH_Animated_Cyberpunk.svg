@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1536" height="864" viewBox="0 0 1536 864" role="img" aria-labelledby="title desc">
+<title id="title">NullSec PH — Animated Cybersecurity Dashboard</title>
+<desc id="desc">Neon green animated cyberpunk command center with a hooded silhouette, terminal panels, scanning laser, and NullSec PH branding. Decorative fictional interface.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#020706"/><stop offset=".55" stop-color="#071510"/><stop offset="1" stop-color="#010302"/></linearGradient>
+ <linearGradient id="neon" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#baffd8"/><stop offset=".45" stop-color="#20ff91"/><stop offset="1" stop-color="#008b53"/></linearGradient>
+ <linearGradient id="hood" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#172b25"/><stop offset=".45" stop-color="#030807"/><stop offset="1" stop-color="#000"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <filter id="soft"><feGaussianBlur stdDeviation="14"/></filter>
+ <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" fill="none" stroke="#18d879" stroke-opacity=".11" stroke-width="1"/></pattern>
+ <pattern id="scanlines" width="4" height="8" patternUnits="userSpaceOnUse"><path d="M0 7.5H4" stroke="#9effc8" stroke-opacity=".07"/></pattern>
+ <clipPath id="screen"><rect width="1536" height="864"/></clipPath>
+</defs>
+<style>
+ .neon{stroke:#38ffa0;fill:none;stroke-width:1.7;filter:url(#glow)} .dim{stroke:#1c9c68;fill:none;stroke-width:1;opacity:.65}
+ .txt{font-family:monospace;fill:#70ffb5}.small{font-size:14px;letter-spacing:1px}.micro{font-size:11px;letter-spacing:.7px}.head{font-family:monospace;font-weight:800;letter-spacing:5px;fill:#eafff3;paint-order:stroke;stroke:#0cff84;stroke-opacity:.25;stroke-width:2}
+ .panel{fill:#020a07;fill-opacity:.9;stroke:#28f997;stroke-opacity:.8;stroke-width:1.5}.pulse{animation:pulse 2.4s ease-in-out infinite}.flicker{animation:flicker 5s linear infinite}.scan{animation:scan 6s linear infinite}.dash{stroke-dasharray:9 10;animation:dash 7s linear infinite}.float{animation:float 4s ease-in-out infinite}.blink{animation:blink 1s steps(2,end) infinite}
+ @keyframes pulse{0%,100%{opacity:.55}50%{opacity:1}} @keyframes flicker{0%,94%,96%,100%{opacity:1}95%{opacity:.55}} @keyframes scan{0%{transform:translateY(-220px);opacity:0}10%{opacity:.8}90%{opacity:.8}100%{transform:translateY(900px);opacity:0}} @keyframes dash{to{stroke-dashoffset:-160}} @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}} @keyframes blink{50%{opacity:.15}}
+ @media(prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<g clip-path="url(#screen)">
+ <rect width="1536" height="864" fill="url(#bg)"/><rect width="1536" height="864" fill="url(#grid)"/>
+ <g opacity=".45" fill="#16352b"><path d="M0 240L180 165 310 250 420 180 590 260 740 190 880 250 1040 170 1190 240 1360 165 1536 220V640H0Z"/><path d="M0 390L130 310 240 380 380 290 520 390 700 315 820 380 1000 290 1160 370 1320 280 1536 360V700H0Z"/></g>
+ <g stroke="#174b38" stroke-width="2" opacity=".7"><path d="M80 0V260M115 0V190M1420 0V270M1460 0V210M0 260H1536M0 620H1536"/></g>
+ <!-- terminal panel -->
+ <path class="panel" d="M38 42H570L594 62V210L572 229H38L26 214V62Z"/><text class="txt small" x="53" y="72">root@nullsec-ph:~</text><text class="txt small" x="53" y="103">$ whoami</text><text class="txt small" x="72" y="124">nullsec_ph</text><text class="txt small" x="53" y="151">$ uname -a</text><text class="txt micro" x="72" y="172">PHILIPPINES // CYBERSECURITY LAB</text><text class="txt small" x="53" y="198">$ <tspan class="blink">_</tspan></text>
+ <path class="panel" d="M1027 42H1308L1330 63V202L1310 222H1027L1014 205V61Z"/><text class="txt small" x="1044" y="72">SYSTEM STATUS</text><path class="dim" d="M1043 86H1308"/><text class="txt micro" x="1044" y="110">NETWORK <tspan x="1165">: MONITORING</tspan></text><text class="txt micro" x="1044" y="132">SECURITY <tspan x="1165">: LEARNING</tspan></text><text class="txt micro" x="1044" y="154">REGION <tspan x="1165">: PH / ASIA</tspan></text><text class="txt micro" x="1044" y="176">STATUS <tspan x="1165">: <tspan fill="#52ff9d">ONLINE</tspan></tspan></text><circle cx="1308" cy="190" r="4" fill="#4dffa4" class="pulse"/>
+ <!-- center identity card -->
+ <path class="panel" d="M615 43H919L939 62V159L920 179H615L597 160V63Z"/><g class="float"><circle cx="654" cy="108" r="28" fill="none" stroke="#34ff9a" stroke-width="3" filter="url(#glow)"/><path d="M638 118L638 99L646 88L654 94L662 88L671 99V118L662 125H646Z" fill="#37ffa0"/><path d="M646 107H650M659 107H663" stroke="#02150c" stroke-width="3"/><text x="697" y="91" class="txt" font-size="22" font-weight="bold">NULLSEC PH</text><text x="697" y="116" class="txt small">&gt; SECURE • LEARN • BUILD</text><text x="697" y="139" class="txt micro">PHILIPPINE CYBER COMMUNITY</text></g>
+ <!-- giant title -->
+ <g class="flicker"><text class="head" x="64" y="408" font-size="115">NULLSEC</text><text class="head" x="70" y="493" font-size="66" fill="#35ff9b">PHILIPPINES</text></g>
+ <path d="M69 519H738L770 501H850" stroke="#27ff96" stroke-width="3" filter="url(#glow)"/><text class="txt small" x="72" y="553">CTF  /  CYBERSECURITY  /  OPEN LEARNING</text>
+ <!-- hooded figure -->
+ <ellipse cx="1105" cy="762" rx="310" ry="75" fill="#20ff91" opacity=".11" filter="url(#soft)"/>
+ <path d="M838 864Q855 740 895 658Q920 610 971 575L1005 492Q1032 407 1096 370Q1155 405 1195 477L1225 571Q1298 632 1325 718L1364 864Z" fill="url(#hood)" stroke="#123c2b" stroke-width="3"/>
+ <path d="M974 577Q951 500 1000 437Q1040 382 1096 371Q1165 400 1190 473L1208 567Q1150 535 1097 539Q1034 537 974 577Z" fill="#010403" stroke="#174a34" stroke-width="3"/>
+ <path d="M1011 469Q1044 427 1095 420Q1147 435 1172 480Q1134 461 1094 465Q1050 460 1011 469Z" fill="#07100c"/>
+ <path d="M1028 493Q1062 476 1096 479Q1137 477 1162 497L1146 520Q1097 507 1045 521Z" fill="#000"/>
+ <path d="M1015 598Q1096 572 1194 608L1244 724Q1162 689 1085 716Q1009 701 937 751Z" fill="#020605" stroke="#0f3c29" stroke-width="2"/>
+ <!-- emblem on hoodie -->
+ <g transform="translate(1097 674)" opacity=".8"><circle r="43" fill="none" stroke="#2c9d68" stroke-width="5"/><path d="M-23 4V-11L-11 -27L0 -20L11 -27L23 -11V11L11 24H-11L-23 11Z" fill="#153c2c" stroke="#3cff9c" stroke-width="2"/><path d="M-12 -2H-5M5 -2H12" stroke="#9cffc7" stroke-width="4"/><text x="0" y="64" text-anchor="middle" fill="#4bcf91" font-family="monospace" font-size="18" font-weight="bold">NULLSEC PH</text></g>
+ <!-- lower left file terminal -->
+ <path class="panel" d="M39 603H407L430 624V787L412 805H39L27 790V622Z"/><text class="txt small" x="56" y="636">$ ls -la /lab</text><path class="dim" d="M54 648H403"/><text class="txt small" x="57" y="675">[+] learn/</text><text class="txt small" x="57" y="699">[+] research/</text><text class="txt small" x="57" y="723">[+] tools/</text><text class="txt small" x="57" y="747">[+] writeups/</text><text class="txt small" x="57" y="771">[+] community/</text><text class="txt micro" x="270" y="675">DEFEND</text><text class="txt micro" x="270" y="699">ANALYZE</text><text class="txt micro" x="270" y="723">PRACTICE</text><text class="txt micro" x="270" y="747">IMPROVE</text><text class="txt micro" x="270" y="771">REPEAT</text>
+ <!-- right code panels -->
+ <path class="panel" d="M1308 390H1490L1505 405V621L1490 635H1308L1297 621V405Z"/><text class="txt small" x="1323" y="422"># NULLSEC PH</text><text class="txt small" x="1323" y="454"># learn</text><text class="txt small" x="1323" y="480"># defend</text><text class="txt small" x="1323" y="506"># build</text><text class="txt small" x="1323" y="532"># explore</text><text class="txt small" x="1323" y="558"># ethical</text><text class="txt small" x="1323" y="584"># security</text><text class="txt small" x="1323" y="610"># PH 🇵🇭</text>
+ <path class="panel" d="M1337 701H1503V811H1337L1324 798V715Z"/><text class="txt micro" x="1352" y="733">&gt; THINK</text><text class="txt micro" x="1352" y="753">&gt; TEST</text><text class="txt micro" x="1352" y="773">&gt; SECURE</text><text class="txt micro" x="1352" y="793">&gt; REPEAT <tspan class="blink">_</tspan></text>
+ <!-- data streams -->
+ <g class="txt micro" opacity=".45"><text x="480" y="630">01001110 01010101 01001100</text><text x="520" y="652">10100101 01101000 01010011</text><text x="480" y="674">11001001 01010000 01001000</text><text x="690" y="723">0x4E 0x53 0x50 0x48</text><text x="735" y="746">TRACE // SIGNAL // LEARN</text></g>
+ <path class="neon dash" d="M0 578H1536M0 589H1536M18 24H190M1340 245H1510" opacity=".5"/>
+ <!-- moving laser sweep -->
+ <g class="scan"><rect x="0" y="0" width="1536" height="4" fill="#9affc8" opacity=".75" filter="url(#glow)"/><rect x="0" y="-8" width="1536" height="26" fill="#24ff91" opacity=".08"/></g>
+ <rect width="1536" height="864" fill="url(#scanlines)" pointer-events="none"/>
+ <rect x="10" y="10" width="1516" height="844" fill="none" stroke="#27ff97" stroke-opacity=".45"/>
+ <text x="42" y="841" class="txt micro">NULLSEC PH // CYBERSECURITY • COMMUNITY • RESPONSIBLE RESEARCH</text><text x="1280" y="841" class="txt micro">SYSTEM: <tspan class="pulse">ACTIVE</tspan></text>
+</g></svg>
