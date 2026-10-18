@@ -105,7 +105,7 @@ A huge shout-out to everyone who contributes to the cybersecurity, ethical hacki
 
 Thank you to everyone who has contributed to Sherlock! ❤️
 
-<a href="https://github.com/sherlock-project/sherlock/graphs/contributors">
+<a href="https://github.com/clintXproduction/web-flasherbruce/graphs/contributors">
   <img src="https://contrib.rocks/image?&columns=25&max=10000&&repo=sherlock-project/sherlock" noZoom />
 </a>
 
