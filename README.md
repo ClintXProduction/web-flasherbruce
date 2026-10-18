@@ -133,6 +133,13 @@ Thank you to everyone who has contributed to Sherlock! ❤️
 
 - CLTX4 — For the vision, development, and dedication behind this project.
 - Anonymous — For the well-known hacktivist identity associated with online activism.
+  <p align="center">
+  <img
+    src="assets/NullSec_PH_Animated_Cyberpunk.svg"
+    alt="NullSec PH Animated Cybersecurity Dashboard"
+    width="100%"
+  />
+</p>
 - LulzSec — For its historical place in hacktivism and cybersecurity discussions.
 - Kevin Mitnick — For his influence on security awareness and social engineering discussions.
 - Gary McKinnon — For his notoriety in the history of computer intrusion cases.
