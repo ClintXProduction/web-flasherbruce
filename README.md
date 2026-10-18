@@ -109,11 +109,17 @@ Thank you to everyone who has contributed to Sherlock! ❤️
   <img src="https://contrib.rocks/image?&columns=25&max=10000&&repo=sherlock-project/sherlock" noZoom />
 </a>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=sherlock-project/sherlock&type=Date&theme=dark" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=sherlock-project/sherlock&type=Date" />
-  <img alt="Sherlock Project Star History Chart" src="https://api.star-history.com/svg?repos=sherlock-project/sherlock&type=Date" />
-</picture>
+<div align="center">
+
+# ❤️‍🔥 CLTX4 TikTok Analytics
+
+<img src="assets/CLTX4_TikTok_Followers_Graph.svg" alt="CLTX4 TikTok Followers Growth Graph" width="100%">
+
+**2,600+ FOLLOWERS — THANK YOU FOR THE SUPPORT!**
+
+*CREATE // SHARE // INSPIRE*
+
+</div>
 
 - CLTX4 — For the vision, development, and dedication behind this project.
 - Anonymous — For the well-known hacktivist identity associated with online activism.
