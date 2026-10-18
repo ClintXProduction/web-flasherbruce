@@ -113,7 +113,7 @@ Thank you to everyone who has contributed to Sherlock! ❤️
 
 # ❤️‍🔥 CLTX4 TikTok Analytics
 
-<img src="assets/CLTX4_TikTok_Followers_Graph.svg" alt="CLTX4 TikTok Followers Growth Graph" width="100%">
+<img src="assets/CLTX4_Neon_RGB_Combined_Dashboard.Svg" alt="CLTX4 TikTok Followers Growth Graph" width="100%">
 
 **2,600+ FOLLOWERS — THANK YOU FOR THE SUPPORT!**
 
