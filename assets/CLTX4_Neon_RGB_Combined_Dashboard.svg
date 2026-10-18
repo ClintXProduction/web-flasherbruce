@@ -13,8 +13,8 @@
     .panel{fill:#0a0c18;fill-opacity:.94;stroke:#30304f;stroke-width:1.4}
     .tiny{font-size:11px;letter-spacing:1.5px}.label{font-size:13px;letter-spacing:1px}
     .pulse{animation:pulse 2.8s ease-in-out infinite;transform-origin:center}
-    .dash{stroke-dasharray:10 12;animation:dash 16s linear infinite}
-    .float{animation:float 4s ease-in-out infinite}
+    .dash{stroke-dasharray:10 120;animation:dash 1s linear infinite}
+    .float{animation:float 1s ease-in-out infinite}
     @keyframes pulse{0%,100%{opacity:.65}50%{opacity:1}}
     @keyframes dash{to{stroke-dashoffset:-220}}
     @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
