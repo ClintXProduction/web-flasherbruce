@@ -123,7 +123,7 @@ Thank you to everyone who has contributed to Sherlock! ❤️
 **2,600+ FOLLOWERS — THANK YOU FOR THE SUPPORT!**
 
 *CREATE // SHARE // INSPIRE*
-
+# CREATOR CLTX4 
 </div>
 <p align="center">
   <img src="assets/CLTX4_Animated_Cyberpunk.svg"
@@ -133,12 +133,19 @@ Thank you to everyone who has contributed to Sherlock! ❤️
 
 - CLTX4 — For the vision, development, and dedication behind this project.
 - Anonymous — For the well-known hacktivist identity associated with online activism.
+# NULLSEC-PH 🖥️📛
   <p align="center">
   <img
     src="assets/NullSec_PH_Animated_Cyberpunk.svg"
     alt="NullSec PH Animated Cybersecurity Dashboard"
     width="100%"
   />
+</p>
+# ROT4EX ( COLLABORATORS )
+<p align="center">
+  <img src="assets/ROT4EX_Animated_Cyberpunk.svg"
+       alt="ROT4EX Animated Cyberpunk Room"
+       width="100%">
 </p>
 - LulzSec — For its historical place in hacktivism and cybersecurity discussions.
 - Kevin Mitnick — For his influence on security awareness and social engineering discussions.
