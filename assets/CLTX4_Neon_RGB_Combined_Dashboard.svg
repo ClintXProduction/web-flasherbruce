@@ -11,9 +11,9 @@
     text{font-family:Arial,Helvetica,sans-serif}
     .muted{fill:#9ca3bd}.white{fill:#f7f7ff}.cyan{fill:#00f5ff}.pink{fill:#ff2d95}.purple{fill:#b66cff}
     .panel{fill:#0a0c18;fill-opacity:.94;stroke:#30304f;stroke-width:1.4}
-    .tiny{font-size:11px;letter-spacing:1.5px}.label{font-size:13px;letter-spacing:1px}
-    .pulse{animation:pulse 2.8s ease-in-out infinite;transform-origin:center}
-    .dash{stroke-dasharray:10 120;animation:dash 1s linear infinite}
+    .tiny{font-size:11px;letter-spacing:50px}.label{font-size:13px;letter-spacing:50px}
+    .pulse{animation:pulse 1 ease-in-out infinite;transform-origin:center}
+    .dash{stroke-dasharray:10 120;animation:dash 90s linear infinite}
     .float{animation:float 1s ease-in-out infinite}
     @keyframes pulse{0%,100%{opacity:.65}50%{opacity:1}}
     @keyframes dash{to{stroke-dashoffset:-220}}
