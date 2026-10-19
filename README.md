@@ -141,7 +141,8 @@ Thank you to everyone who has contributed to Sherlock! ❤️
     width="100%"
   />
 </p>
-# ROT4EX ( COLLABORATORS )
+
+# ROT4EX ( ✅COLLABORATOR )
 <p align="center">
   <img src="assets/ROT4EX_Animated_Cyberpunk.svg"
        alt="ROT4EX Animated Cyberpunk Room"
